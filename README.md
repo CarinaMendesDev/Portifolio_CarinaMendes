@@ -7,7 +7,7 @@ Este portfólio apresenta minhas experiências profissionais, formação acadêm
 
 ## 👩‍💻 Sobre o Projeto
 
-O objetivo deste projeto é criar um **portfólio online moderno e responsivo**, apresentando informações pessoais, acadêmicas e profissionais, além de facilitar o contato com empregadores e parceiros.  
+O objetivo deste projeto é criar um **portfólio online moderno e responsivo**, apresentando informações pessoais, acadêmicas e profissionais.  
 
 O site foi desenvolvido utilizando:  
 
@@ -22,7 +22,7 @@ O site foi desenvolvido utilizando:
 ## 📂 Estrutura do Site
 
 - **🏠 Início / Capa** – Introdução e boas-vindas.  
-- **📝 Sobre Mim** – Apresentação pessoal e trajetória profissional.  
+- **📝 Sobre** – Apresentação pessoal e trajetória profissional.  
 - **🎓 Formação** – Detalhes sobre cursos e certificações.  
 - **💼 Portfólio** – Projetos desenvolvidos com links para demonstrações.  
 - **📬 Contato** – Informações de contato e links para e-mail, LinkedIn e GitHub.  
@@ -56,9 +56,7 @@ O site foi desenvolvido utilizando:
 
 ## 🎨 Demonstração Visual
 
-Você pode adicionar GIFs ou imagens do site aqui, por exemplo:  
-
-![Portfólio Demo](https://via.placeholder.com/800x400?text=Seu+Portfólio+Aqui)  
+<img width="1052" height="597" alt="image" src="https://github.com/user-attachments/assets/02a64e28-1d26-4032-89fe-d42d97301914" />
 
 ---
 
