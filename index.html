@@ -65,18 +65,22 @@
     </ul>
   </section>
 
-  <!-- CONTATO -->
+   <!-- CONTATO -->
+<h2>Contato</h2>
 <section id="contato">
-  <h2>Contato</h2>
-  <form action="mailto:carinamendes2013@gmai" method="POST" enctype="text/plain">
+  <form action="https://formsubmit.co/carinamendes2013@gmail.com" method="POST">
     <input type="text" name="nome" placeholder="Nome" required>
     <input type="email" name="email" placeholder="E-mail" required>
     <textarea name="mensagem" rows="5" placeholder="Digite sua mensagem" required></textarea>
-    <input type="submit" value="Enviar">
+    
+    <!-- Redireciona para a página de obrigado -->
+    <input type="hidden" name="_next" value="https://seudominio.com/obrigado.html">
+    
+    <!-- Evita SPAM -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <button type="submit">Enviar</button>
   </form>
-  <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=carinamendes2013@gmail.com&su=Contato%20do%20Portfólio&body=Olá%2C%20escreva%20sua%20mensagem%20aqui.">E-mail: carinamendes2013@gmail.com</a></li>
-  <li><a href="https://www.linkedin.com/in/carinamendesdev/">https://www.linkedin.com/in/carinamendesdev</a></li>
-  <li><a href="https://github.com/CarinaMendesDev">https://github.com/CarinaMendesDev</a></li>
 </section>
 
 <!-- RODAPÉ -->
@@ -85,5 +89,6 @@
   </footer>
 </body>
 </html>
+
 
 
