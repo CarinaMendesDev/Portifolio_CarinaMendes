@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Página index */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -16,9 +16,9 @@ html {
   scroll-behavior: smooth; 
 }
 
-/* Evita que o menu sticky cubra títulos das seções */
+/* Evita que o título fique escondido atrás do menu fixo*/
 header, section { 
-  scroll-margin-top: 80px; 
+  scroll-margin-top: 20px; 
 }
 
 /* MENU */
@@ -40,7 +40,7 @@ header, section {
   color: #ff6600;
 }
 .menu a:first-child {
-  color: #ff6600; /* cor destacada no Início */
+  color: #ff6600; 
 }
 .menu a:first-child:hover {
   text-decoration: underline;
@@ -52,6 +52,8 @@ header, section {
   text-align: center;
   padding: 60px 20px;
 }
+
+/*área principal*/
 .foto-container {
   width: 200px;
   height: 200px;
@@ -65,6 +67,8 @@ header, section {
   height: 100%;
   object-fit: cover;
 }
+
+/*textos de apresentação*/
 .intro {
   margin-top: 20px;
 }
@@ -81,6 +85,8 @@ header, section {
   font-size: 1rem;
   color: #555;
 }
+
+/*CONSULTE MAIS INFORMAÇÕES*/
 .btn {
   display: inline-block;
   margin-top: 10px;
@@ -126,14 +132,19 @@ form input, form textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
-form input[type="submit"] {
+
+form button[type="submit"] {
   background: #333;
   color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
   cursor: pointer;
+  font-weight: bold;
 }
-form input[type="submit"]:hover {
+form button[type="submit"]:hover {
   background: #ff6600;
 }
+
 
 /* RODAPÉ */
 footer {
@@ -143,17 +154,36 @@ footer {
   padding: 15px;
 }
 
-.btn-contato {
-  display: inline-block;
-  background-color: #d14836; /* vermelho Gmail */
-  color: white;
-  font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  margin-top: 15px;
-  transition: background-color 0.3s;
+/* Página de obrigado */
+body.obrigado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #d4c6b0;
 }
-.btn-contato:hover {
-  background-color: #a63428;
+.box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.btn-voltar {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  background: #333;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s, transform 0.2s;
+  text-decoration: none;
+}
+.btn-voltar:hover {
+  background: #ff6600;
+  color: #fff;
+  transform: scale(1.05);
 }
