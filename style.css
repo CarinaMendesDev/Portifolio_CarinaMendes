@@ -50,7 +50,7 @@ header, section {
 .capa {
   background-color: #d4c6b0; 
   text-align: center;
-  padding: 60px 20px;
+  padding: 50px 20px;
 }
 
 /*área principal*/
@@ -144,15 +144,11 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
   background: #ff6600;
 }
-
-
-/* RODAPÉ */
-footer {
-  background: #333;
-  color: white;
-  text-align: center;
-  padding: 15px;
+#contato {
+  padding: 30px 20px 100px; /* top / laterais / bottom */
 }
+
+
 
 /* Página de obrigado */
 body.obrigado {
@@ -186,4 +182,48 @@ body.obrigado {
   background: #ff6600;
   color: #fff;
   transform: scale(1.05);
+}
+
+
+/*Rodapé*/
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.footer-content span {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.footer-content a {
+  color: white;
+  font-size: 15px;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 3px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.footer-content a:hover {
+  background: #ff6600;
+  color: #333;
 }
