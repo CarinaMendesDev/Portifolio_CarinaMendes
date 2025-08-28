@@ -182,3 +182,40 @@ footer {
   background: #ff6600;
   color: #333;
 }
+
+/* Página de obrigado */
+body.obrigado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #d4c6b0;
+}
+
+.box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.btn-voltar {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  background: #333;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: background 0.2s, transform 0.2s;
+  text-decoration: none;
+}
+
+.btn-voltar:hover {
+  background: #ff6600;
+  color: #fff;
+  transform: scale(1.05);
+}
