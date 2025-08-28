@@ -160,13 +160,20 @@ footer {
   color: white;
   text-align: center;
   padding: 12px 0;
+  position: fixed;   /* deixa fixo */
+  bottom: 0;         /* gruda no fundo */
+  left: 0;           /* alinhado à esquerda */
+  width: 100%;       /* ocupa toda a largura */
+  z-index: 1000;     /* garante que fique por cima */
 }
+
 .footer-content {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
+
 .footer-content a {
   color: white;
   font-size: 15px;
@@ -178,9 +185,15 @@ footer {
   justify-content: center;
   transition: 0.3s;
 }
+
 .footer-content a:hover {
   background: #ff6600;
   color: #333;
+}
+
+/* Garante que o footer não sobreponha o conteúdo */
+body {
+  padding-bottom: 60px; /* mesma altura do footer */
 }
 
 /* Página de obrigado */
@@ -219,3 +232,4 @@ body.obrigado {
   color: #fff;
   transform: scale(1.05);
 }
+
